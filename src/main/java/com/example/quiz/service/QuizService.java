@@ -21,4 +21,8 @@ public class QuizService {
     public List<Question> getQuestionsByCategory(Category category) {
         return  questionRepository.findByCategory(category);
     }
+
+    public Question findById(Long id) {
+        return questionRepository.findById(id);
+    }
 }

@@ -15,11 +15,9 @@ public class QuestionRepository {
         init();
     }
 
-//    public QuestionRepository() {}
-
     private void init() {
         questions.add(new Question(
-                1L, " каком году началась Вторая мировая война?",
+                1L, "В каком году началась Вторая мировая война?",
                 Category.HISTORY, List.of("1939", "1941", "1945", "1914"),
                 "1939")
         );
